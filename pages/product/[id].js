@@ -1,12 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 import { productDetail } from "../../src/data";
 
 const Product = ({ product }) => {
   return (
-    <div>
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
       <div className="fullscreen">
         <div className="product">
           <div className="img">
@@ -44,7 +45,7 @@ const Product = ({ product }) => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

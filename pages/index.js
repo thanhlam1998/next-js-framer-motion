@@ -1,5 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import Image from "next/image";
+
 import { productsData } from "../src/data";
 
 export default function Home({ products = [] }) {
@@ -14,7 +15,7 @@ export default function Home({ products = [] }) {
             <Link passHref key={product.id} href="/product/[id]" as={`/product/${product.id}`}>
               <div className="card">
                 <span className="category">Protein</span>
-                <Image src={product.image} width={250} height={250} alt={product.name} />
+                <img src={product.image} width={250} height={250} alt={product.name} />
                 <div className="product-info">
                   <h4>{product.name}</h4>
                   <span>{product.price}</span>

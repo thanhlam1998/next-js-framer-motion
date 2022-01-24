@@ -1,7 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Image from "next/image";
-import { productDetail } from "../../src/data";
 import Link from "next/link";
+
+import { productDetail } from "../../src/data";
 
 const Product = ({ product }) => {
   return (
@@ -9,7 +10,7 @@ const Product = ({ product }) => {
       <div className="fullscreen">
         <div className="product">
           <div className="img">
-            <Image layout="fill" src={product.image} alt={product.name} />
+            <img src={product.image} alt={product.name} />
           </div>
           <div className="product-details">
             <div className="inner">

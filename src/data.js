@@ -5,7 +5,7 @@ export const productsData = [
     details:
       "We've said it before and we will say it again, nothing beats the real thing. With years of R&D and REAL CHIPS AHOY!® cookie pieces in every scoop, this flavor is second to none.",
     price: "$39.99",
-    image: "https://cdn.shopify.com/s/files/1/1312/1975/products/CleanLeanFront@2x.png?v=1630348882",
+    image: "https://cdn.shopify.com/s/files/1/0199/4824/0950/products/Ghost_810028292611_500x500_Single_500x.png?v=1636229802",
   },
   {
     id: "ghost-whey-vegan",
@@ -24,7 +24,7 @@ export const productDetail = {
     details:
       "We've said it before and we will say it again, nothing beats the real thing. With years of R&D and REAL CHIPS AHOY!® cookie pieces in every scoop, this flavor is second to none.",
     price: "$39.99",
-    image: "https://cdn.shopify.com/s/files/1/1312/1975/products/CleanLeanFront@2x.png?v=1630348882",
+    image: "https://cdn.shopify.com/s/files/1/0199/4824/0950/products/Ghost_810028292611_500x500_Single_500x.png?v=1636229802",
   },
   "ghost-whey-vegan": {
     id: "ghost-whey-vegan",

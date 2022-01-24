@@ -39,7 +39,7 @@ export default function Home({ products = [] }) {
         <motion.div variants={stagger} className="product-row">
           {products.map((product) => (
             <Link passHref key={product.id} href="/product/[id]" as={`/product/${product.id}`}>
-              <motion.div variants={fadeInUp} className="card">
+              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} variants={fadeInUp} className="card">
                 <span className="category">Protein</span>
                 <motion.img
                   initial={{
